@@ -325,17 +325,8 @@ section {
 
 .image-container {
             text-align: center;
-            position: absolute;
-            /* canvas-viz2.png*/
-            top: 15%;
-            left: 18%;
-            width: 66%;
-            background-color: rgba(0, 0, 0, 1); /* Semi-transparent overlay */
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            position: relative;
+            margin-top:30px;
         }
 
 .image-container img {
